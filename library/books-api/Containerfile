@@ -1,5 +1,5 @@
-# FROM registry.restricted-05.bttech.ocp:8443/ubi8/nodejs-14:1
-FROM library/nodejs-14:latest
+FROM registry.restricted-05.bttech.ocp:8443/ubi8/nodejs-14:1
+# FROM library/nodejs-14:latest
 
 COPY . /opt/app-root/src/
 
