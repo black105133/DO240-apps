@@ -1,4 +1,4 @@
-FROM registry.restricted-05.bttech.ocp:8443/ubi8/nodejs-14:1 as builder
+FROM registry.access.redhat.com/ubi8/nodejs-14:1 as builder
 
 
 COPY . /opt/app-root/src/
